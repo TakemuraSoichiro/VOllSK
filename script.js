@@ -9,7 +9,16 @@ cards.forEach((card, i) => {
   card.addEventListener('mouseleave', () => card.style.transform = '');
 });
 const menu = document.querySelector('.menu');
-const nav = document.querySelector('nav');
+const mobileMenu = document.querySelector('.mobile-menu');
 menu?.addEventListener('click', () => {
-  nav.classList.toggle('open');
+  const open = mobileMenu.classList.toggle('open');
+  menu.classList.toggle('open', open);
+  document.body.style.overflow = open ? 'hidden' : '';
+});
+mobileMenu?.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    mobileMenu.classList.remove('open');
+    menu.classList.remove('open');
+    document.body.style.overflow = '';
+  });
 });
