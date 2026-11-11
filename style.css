@@ -56,6 +56,7 @@ nav a:hover:after,.social a:hover:after{width:100%}
 .archive-list a:hover{padding-left:12px;color:var(--red)}
 .archive-list b{font-size:12px}.archive-list em{font-style:normal;text-align:right}
 .shop-item{display:grid;grid-template-columns:1.3fr 1fr;gap:5vw;align-items:end}.shop-image{height:55vh;background:#c5c5bf}
+.shop-img{width:100%;height:55vh;object-fit:contain;background:#e9e9e5;display:block}
 .about-copy{display:grid;grid-template-columns:2fr 1fr;gap:5vw}
 .big{font-size:clamp(32px,5vw,75px);line-height:1.03;letter-spacing:-.055em;font-weight:700;margin:0}
 .about-copy p:last-child{font-size:13px;line-height:2;color:#555;margin:0;padding-top:10px}
