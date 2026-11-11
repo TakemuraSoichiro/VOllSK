@@ -50,7 +50,7 @@ nav a:hover:after,.social a:hover:after{width:100%}
 .project-card small{font-size:9px;color:var(--gray)}
 .image-a{background:#bdbdb7}.image-b{background:#d3d3ce}.image-c{background:#aaa
 }.art-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
-.art-grid .placeholder{min-height:420px}.art-piece{margin:0}.art-piece img{width:100%;height:420px;object-fit:cover;display:block}.art-piece figcaption{font-size:11px;line-height:1.7;color:#555;padding-top:12px}.art-piece figcaption b{color:var(--black);font-size:12px}.art-1{background:#bcbcb5}.art-2{background:#d4d4cf}.art-3{background:#a7a7a1}.art-4{background:#cacac4}
+.art-grid .placeholder{min-height:420px}.art-piece{margin:0}.art-piece img{width:100%;height:420px;object-fit:contain;background:#e9e9e5;display:block}.art-piece figcaption{font-size:11px;line-height:1.7;color:#555;padding-top:12px}.art-piece figcaption b{color:var(--black);font-size:12px}.art-1{background:#bcbcb5}.art-2{background:#d4d4cf}.art-3{background:#a7a7a1}.art-4{background:#cacac4}
 .archive-list{border-top:1px solid var(--black)}
 .archive-list a{display:grid;grid-template-columns:100px 100px 1fr 30px;padding:20px 0;border-bottom:1px solid var(--line);font-size:12px;transition:.2s}
 .archive-list a:hover{padding-left:12px;color:var(--red)}
