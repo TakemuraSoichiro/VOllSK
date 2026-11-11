@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://v-oll-sk.vercel.app/sitemap.xml
