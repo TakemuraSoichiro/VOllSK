@@ -9,6 +9,7 @@ a{color:inherit;text-decoration:none}
 .logo{font-size:25px;font-weight:900;letter-spacing:-1.5px;display:flex;align-items:center;gap:10px}
 .logo-mark{height:20px;width:auto;display:block}
 .feature-flyer{width:100%;height:62vh;min-height:450px;object-fit:contain;background:#000;display:block}
+.feature-image-img{width:100%;height:62vh;min-height:450px;object-fit:cover;object-position:center;background:#000;display:block}
 nav{display:flex;gap:26px;font-size:11px;font-weight:600}
 nav a,.social a{position:relative}
 nav a:after,.social a:after{content:"";position:absolute;left:0;bottom:-5px;width:0;height:2px;background:var(--red);transition:.25s}
@@ -58,5 +59,5 @@ footer a{color:var(--black)}
 @media(max-width:800px){
  .site-header{height:60px}.site-header nav{display:none}.menu{display:flex;flex-direction:column;gap:5px}.menu span{display:block;width:22px;height:2px;background:var(--black)}
  .hero{min-height:650px;padding:0 5vw 9vh}.hero-mark{font-size:80vw;right:-5vw;top:23vh}.hero h1{font-size:28vw;margin-bottom:22px}.hero-text{font-size:14px}.scroll{right:5vw}
- .section{padding:90px 5vw}.section-head{margin-bottom:35px}.feature,.shop-item,.about-copy{grid-template-columns:1fr;gap:35px}.feature-image,.shop-image{height:60vh;min-height:360px}.feature-flyer{height:60vh;min-height:300px}.grid{grid-template-columns:1fr 1fr}.art-grid{grid-template-columns:1fr}.art-grid .placeholder{min-height:360px}.art-piece img{height:300px}.archive-list a{grid-template-columns:60px 70px 1fr 20px;font-size:10px}.contact-link{font-size:10vw;border-bottom-width:3px}footer{padding:22px 5vw;gap:15px;flex-wrap:wrap}
+ .section{padding:90px 5vw}.section-head{margin-bottom:35px}.feature,.shop-item,.about-copy{grid-template-columns:1fr;gap:35px}.feature-image,.shop-image{height:60vh;min-height:360px}.feature-flyer{height:60vh;min-height:300px}.feature-image-img{height:60vh;min-height:360px}.grid{grid-template-columns:1fr 1fr}.art-grid{grid-template-columns:1fr}.art-grid .placeholder{min-height:360px}.art-piece img{height:300px}.archive-list a{grid-template-columns:60px 70px 1fr 20px;font-size:10px}.contact-link{font-size:10vw;border-bottom-width:3px}footer{padding:22px 5vw;gap:15px;flex-wrap:wrap}
 }
