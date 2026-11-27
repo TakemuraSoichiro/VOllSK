@@ -62,12 +62,13 @@ nav a:hover:after,.social a:hover:after{width:100%}
 .big{font-size:clamp(32px,5vw,75px);line-height:1.03;letter-spacing:-.055em;font-weight:700;margin:0}
 .about-copy p:last-child{font-size:13px;line-height:2;color:#555;margin:0;padding-top:10px}
 .contact-body{padding:35px 0 20px}.contact-body>p{font-size:11px;font-weight:700}
-.contact-link{display:inline-block;font-size:clamp(30px,6vw,90px);font-weight:800;letter-spacing:-.06em;border-bottom:5px solid var(--red);margin:25px 0 70px}
+.contact-link{display:inline-block;font-size:clamp(30px,6vw,90px);font-weight:800;letter-spacing:-.06em;border:3px solid var(--red);padding:18px 28px;margin:25px 0 70px;max-width:100%;box-sizing:border-box;white-space:nowrap;transition:background .2s,color .2s}
+.contact-link:hover{background:var(--red);color:#fff}
 .social{display:flex;gap:30px;font-size:11px;font-weight:700}
 footer{padding:25px 3vw;display:flex;justify-content:space-between;font-size:9px;color:#666}
 footer a{color:var(--black)}
 @media(max-width:800px){
  .site-header{height:60px}.site-header nav{display:none}.menu{display:flex;flex-direction:column;gap:5px}.menu span{display:block;width:22px;height:2px;background:var(--black)}
  .hero{min-height:650px;padding:0 5vw 9vh}.hero-mark{font-size:80vw;right:-5vw;top:23vh}.hero h1{font-size:28vw;margin-bottom:22px}.hero-text{font-size:14px}.scroll{right:5vw}
- .section{padding:90px 5vw}.section-head{margin-bottom:35px}.feature,.shop-item,.about-copy{grid-template-columns:1fr;gap:35px}.feature-image,.shop-image{height:60vh;min-height:360px}.feature-flyer{height:60vh;min-height:300px}.feature-image-img{height:60vh;min-height:360px}.grid{grid-template-columns:1fr}.art-grid{grid-template-columns:1fr}.art-grid .placeholder{min-height:360px}.art-piece img{height:300px}.archive-list a{grid-template-columns:60px 70px 1fr 20px;font-size:10px}.contact-link{font-size:10vw;border-bottom-width:3px}footer{padding:22px 5vw;gap:15px;flex-wrap:wrap}
+ .section{padding:90px 5vw}.section-head{margin-bottom:35px}.feature,.shop-item,.about-copy{grid-template-columns:1fr;gap:35px}.feature-image,.shop-image{height:60vh;min-height:360px}.feature-flyer{height:60vh;min-height:300px}.feature-image-img{height:60vh;min-height:360px}.grid{grid-template-columns:1fr}.art-grid{grid-template-columns:1fr}.art-grid .placeholder{min-height:360px}.art-piece img{height:300px}.archive-list a{grid-template-columns:60px 70px 1fr 20px;font-size:10px}.contact-link{font-size:6.2vw;border-width:2px;padding:14px 16px}footer{padding:22px 5vw;gap:15px;flex-wrap:wrap}
 }
